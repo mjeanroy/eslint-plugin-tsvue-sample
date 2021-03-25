@@ -1,24 +1,16 @@
 {
-  "name": "vue-tsvue-sample-app",
+  "name": "eslint-plugin-tsvue",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "private": true,
   "scripts": {
-    "lint": "vue-cli-service --ext .js,.ts,.vue,.tsvue lint",
-    "lint:broken": "vue-cli-service -c .eslintrc-broken.js lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mickael Jeanroy",
   "license": "MIT",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "4.19.0",
-    "@typescript-eslint/parser": "4.19.0",
-    "@vue/cli-plugin-eslint": "4.5.12",
-    "@vue/cli-plugin-typescript": "4.5.12",
-    "@vue/cli-service": "4.5.12",
-    "eslint-plugin-tsvue": "*",
-    "vue-eslint-parser": "7.6.0",
-    "typescript": "4.2.3"
+    "eslint": "7.22.0",
+    "eslint-plugin-vue": "7.8.0",
+    "vue-sfc-parser": "0.1.2"
   }
 }

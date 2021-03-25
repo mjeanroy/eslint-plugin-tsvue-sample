@@ -3,21 +3,12 @@ importers:
     specifiers: {}
   app:
     devDependencies:
-      eslint: 7.22.0
-      eslint-plugin-vue: 7.8.0_eslint@7.22.0
-      vue-sfc-parser: 0.1.2
-    specifiers:
-      eslint: 7.22.0
-      eslint-plugin-vue: 7.8.0
-      vue-sfc-parser: 0.1.2
-  eslint-plugin-tsvue:
-    devDependencies:
       '@typescript-eslint/eslint-plugin': 4.19.0_5a4ea2e197a9400b31759cc55f3ddc83
       '@typescript-eslint/parser': 4.19.0_typescript@4.2.3
       '@vue/cli-plugin-eslint': 4.5.12_@vue+cli-service@4.5.12
       '@vue/cli-plugin-typescript': 4.5.12_fd1e6113a316d23056e116d9f0fbf1e0
       '@vue/cli-service': 4.5.12_typescript@4.2.3
-      eslint-plugin-tsvue: link:../app
+      eslint-plugin-tsvue: link:../eslint-plugin-tsvue
       typescript: 4.2.3
       vue-eslint-parser: 7.6.0
     specifiers:
@@ -29,6 +20,15 @@ importers:
       eslint-plugin-tsvue: '*'
       typescript: 4.2.3
       vue-eslint-parser: 7.6.0
+  eslint-plugin-tsvue:
+    devDependencies:
+      eslint: 7.22.0
+      eslint-plugin-vue: 7.8.0_eslint@7.22.0
+      vue-sfc-parser: 0.1.2
+    specifiers:
+      eslint: 7.22.0
+      eslint-plugin-vue: 7.8.0
+      vue-sfc-parser: 0.1.2
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.12.11:
